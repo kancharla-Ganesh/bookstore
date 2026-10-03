@@ -1,0 +1,9 @@
+POST    → Add book
+GET     → See book
+PUT     → Update book
+DELETE  → Remove book
+
+python -m uvcorn main:app --reload
+
+
+pip install fastapi uvicorn
